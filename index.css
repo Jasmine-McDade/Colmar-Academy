@@ -1,0 +1,193 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: black;
+}
+
+/* CSS Style for entire website */
+header {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul > li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a li {
+    display: table-cell;
+    vertical-align: center;
+    height: 100%;
+}
+
+nav a:hover {
+    color: #efc75e;
+    cursor: pointer;
+}
+
+nav a:active {
+    color: purple;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    line-height: 0%;
+}
+
+/* index.html css */
+.home-page h3 {
+    font-size: 25px;
+    color: #efc75e;
+    text-align: center;
+}
+
+.home-page h5{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.home-page img {
+    width: 1000px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;;
+}
+
+/*about-me.html*/
+.bio {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bio h3 {
+    font-size: 25px;
+    color: #efc75e;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.about-me {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+}
+
+.about-me h3 {
+    font-size: 25px;
+    color: #efc75e;    
+    text-align: center;
+}
+
+.about-me p {
+    color: white;
+    font-size: 18px;
+    text-align: center
+}
+
+.about-me h5 {
+    color: #efc75e;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tools-list {
+    color: white;
+    text-align: center;
+    list-style: none;
+    line-height: 25px;
+    padding-right: 40px;
+}
+
+
+/*graphic-design.html*/
+.design-containers {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.design img {
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+}
+
+/*web developer.html*/
+
+.website-containers {
+    text-align: center;
+    display: inline;
+    margin: 50px;
+    padding: 100px;
+}
+
+.website h5 {
+    color: white;
+    font-size: 25px;
+}
+
+.website img {
+    height: 500px;
+    width: 750px
+}
+
+.website a {
+    color: #efc75e;
+}
+
+/* Contact Me */
+
+.contacts {
+    color: white;
+    text-align: center;
+}
+
+.contacts h5 {
+    font-size: 25px;
+}
+
+.contacts img {
+    height: 300px;
+    width: 300px;
+}
+
+
+/*footer*/
+footer {
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    color: #efc75e;    
+    padding: 0 35px;
+}
